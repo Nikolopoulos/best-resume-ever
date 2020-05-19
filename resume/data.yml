@@ -1,75 +1,125 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Vasileios
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
-
+  last: Nikolopoulos
+about: Hi, my name is Vasileios Nikolopoulos. I'm a Software engineer, with Java expertise, while also being a Professional Scrum Master, and leading a small group of people as CEO of Jar (jar.gr)
+position: Lead Developer | Certified Scrum Maser | PhD Candidate
 birth:
-  year: 1990
-  location: New York
+  year: 1991
+  month: June
+  day:  13
+  location: Athens, GR
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Forescout Technologies Inc. 
+  position: Software Engineer
+  timeperiod: July 2018 - Present
+  description: Backend development using a Java and pSql stack. Heavy emphasis on RESTful communications. Technically led three products (Risk Framework, ECC, IT/OT integration) which launched successfully and ended up as the selling points for large deals. Scrum Master for a senior team. Direct discussions with stakeholders for negotiation of development effort and updates on project status. Direct discussions with customers for troubleshooting.
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Jar
+  position: Founder | CEO | Project Manager
+  timeperiod: July 2018 - Present
+  description: Outsourcing of development effort by outsourcing Scrum ready teams. 
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Harokopio University of Athens 
+  position: Research Associate/Software Engineer
+  timeperiod: February 2015 - Present
+  description: Participating in European Research Projects (i.e. Artemis EMC2) as a Software Engineer and Researcher. Proof of Concepts for our research was implemented in Java.
+
+- company: Openbet
+  position: Software Engineer L2
+  timeperiod: November 2016 - September 2017
+  description: Software engineer using Java and TCL for backend development of client ordered changes on betting software.
+
+- company: Express Publishing 
+  position: CMS/Android Programmer
+  timeperiod: September 2013 - February 2015
+  description: Part of the Multimedia team, working on creating a custom builder to transform information from a data entry department to interactive Mobile Applications. Also developed custom tools for the business in Java.
+
+- company: Freelancer
+  position: Software Engineer
+  timeperiod: June 2012 - July 2018
+  description: Implementing customer ordered projects, using primarily Java and JS solutions, but also Android Stack, Unity Game engine, and Embedded Systems (Arduino/Raspberry Pis).
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Doctor of Philosophy (PhD) (Candidate)
+  timeperiod: April 2015 - Present | Harokopio University of Athens
+  description: Context-aware IoT, An Autonomic Approach targeting Multi-critical Applications
+
+- degree: Master of Science
+  timeperiod: September 2013 - February 2015 | Harokopio University of Athens
+  description: Computational and Internet, Technologies and Applications
 
 - degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+  timeperiod: September 2009 - September 2013 | Harokopio University of Athens
+  description: Bachelor's degree on Informatics and Telematics
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
+- name: Team Leading
   level: 99
-- name: CSS3
+- name: Java
   level: 95
-- name: JavaScript
+- name: SQL
   level: 97
-- name: Node.js
+- name: C#
   level: 93
-- name: Angular 2
+- name: NodeJS
   level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
+- name: Git
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Redis
+  level: 99
+- name: Distributed Systems
+  level: 70
+- name: RESTful communications
+  level: 99
+- name: Entity Framework (2 and 3)
+  level: 99
+- name: Agile/Scrum Methodologies
+  level: 80
+knowledge: Additionally I am a PhD candidate at Harokopio University of Athens, on Context-Aware IoT and autonomous Fog/Edge nodes. Keen on researching new technologies and innovating position Software Developer
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+
+publications:
+- name: A system of systems architecture for the internet of things exploiting autonomous components
+  issue: International Journal of System of Systems Engineering 9 (2), 167-199, 2019
+  url: http://galaxy.hua.gr/~mara/publications/2018/ijsse18.pdf
+  
+- name: Enhancing Context-Awareness in Autonomous Fog Nodes for IoT Systems
+  issue: IEEE International Conference on Edge Computing, 2019
+  url: https://nikolopoulosbasil.com/files/papers/EDG_WIP_27.pdf
+  
+- name: The role of autonomous aggregators in IoT multi-core systems
+  issue: Proceedings of the Seventh International Conference on the Internet of Things, 2017
+  url: http://galaxy.hua.gr/~mara/publications/2017/iot17.pdf
+  
+- name: Embedded intelligence in smart cities through multi-core smart building architecture Research achievements and challenges
+  issue: IEEE Tenth International Conference on Research Challenges in Information Science (RCIS), 2016
+  url: http://galaxy.hua.gr/~mara/publications/2016/rcis16.pdf
+  
+- name: A multi-core context-aware management architecture for mixed-criticality smart building applications
+  issue: 11th System of Systems Engineering Conference (SoSE), 2016
+  url: http://galaxy.hua.gr/~mara/publications/2016/sose16.pdf
+  
+- name: An autonomic management framework for multi-criticality smart building applications
+  issue: IEEE 13th International Conference on Industrial Informatics (INDIN), 2015
+  url: http://galaxy.hua.gr/~mara/publications/2015/indin15.pdf
+
+- name: Intelligent Smart Environments’ management system in a Smart Cities environment
+  issue: MSc Thesis, 2015
+  url: https://nikolopoulosbasil.com/files/MscThesis.docx
+  
+- name: Performance analysis in mobile computer games over the web
+  issue: BSc Thesis, 2013
+  url: https://nikolopoulosbasil.com/files/ugthesis.pdf
+
 
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+- name: Business development
+- name: Growth Hacking
+- name: Project Management
 
 - name: Drawing
   iconClass: fa fa-pencil
@@ -80,13 +130,21 @@ contributions:
   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
   url: https://github.com/salomonelli/best-resume-ever
 
+certifications: 
+- name: Cambridge CPE (European C2)
+  issuer: Cambridge University
+  url: https://www.cambridgeenglish.org/exams-and-tests/proficiency/
+
+- name: Professional Scrum Master I
+  issuer: Scrum.org
+  url: https://www.scrum.org/
+
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: nikolopoulosbasil@gmail.com
+  phone: +31 0615067138
+  street: Oude Huys 16
+  city: Helmond, Netherlands
+  website: https://nikolopoulosbasil.com
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `
