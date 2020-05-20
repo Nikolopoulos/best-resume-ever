@@ -56,7 +56,7 @@ education:
   description: Bachelor's degree on Informatics and Telematics
 
 # skill level goes 0 to 100
-skills:
+technicalskills:
 - name: Team Leading
   level: 99
 - name: Java
@@ -76,6 +76,25 @@ skills:
 - name: RESTful communications
   level: 99
 - name: Entity Framework (2 and 3)
+  level: 99
+- name: Agile/Scrum Methodologies
+  level: 80
+skills:
+- name: Team Leading
+  level: 99
+- name: Mentoring
+  level: 95
+- name: Stakeholder Management
+  level: 97
+- name: Customer Relations
+  level: 93
+- name: Requirements Capturing
+  level: 60
+- name: Project Risk Management
+  level: 99
+- name: Distributed Systems
+  level: 70
+- name: RESTful communications
   level: 99
 - name: Agile/Scrum Methodologies
   level: 80
